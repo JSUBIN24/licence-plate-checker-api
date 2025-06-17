@@ -16,7 +16,6 @@ public class MyLicensePlateChecker implements ILicensePlateChecker {
 
     @Override
     public boolean isValid(LicensePlate licensePlate) {
-    	//TODO: implement
     	if (licensePlateSpecification == null || licensePlate == null ){
             return false;
         }
